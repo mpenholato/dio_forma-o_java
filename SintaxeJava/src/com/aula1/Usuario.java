@@ -10,25 +10,28 @@ public class Usuario {
 		System.out.println("Volume atual ? :" + smartTv.volume);
 	
 		smartTv.ligar();
-		System.out.println("Novo - TV Ligada ? :"+ smartTv.ligada);
+		System.out.println("Ligando - TV Ligada ? :"+ smartTv.ligada);
 		
 		smartTv.desligar();
-		System.out.println("Novo - TV Ligada ? :"+ smartTv.ligada);
+		System.out.println("Desligando - TV Ligada ? :"+ smartTv.ligada);
 		
 		smartTv.baixarCanal();
-		System.out.println("Novo - Canal atual ? :" + smartTv.canal);
+		System.out.println("Baixando - Canal atual ? :" + smartTv.canal);
 		
 		smartTv.aumentarCanal();
-		System.out.println("Novo - Canal atual ? :" + smartTv.canal);
+		System.out.println("Aumentando - Canal atual ? :" + smartTv.canal);
 		
 		smartTv.baixarVolume();
-		System.out.println(" Novo - Volume atual ? :" + smartTv.volume);
+		System.out.println(" Baixando- Volume atual ? :" + smartTv.volume);
 		
 		smartTv.baixarVolume();
-		System.out.println(" Novo - Volume atual ? :" + smartTv.volume);
+		System.out.println(" Baixando - Volume atual ? :" + smartTv.volume);
 		
 		smartTv.aumentarCanal();
-		System.out.println("Novo - Canal atual ? :" + smartTv.canal);
+		System.out.println("Aumentando - Canal atual ? :" + smartTv.canal);
+				
+		smartTv.mudarCanal(35);
+		System.out.println("MUDANDO CANAL - Canal atual ? :" + smartTv.canal);
 		
 		
 	}

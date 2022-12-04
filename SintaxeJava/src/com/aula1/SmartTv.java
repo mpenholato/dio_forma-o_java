@@ -32,4 +32,7 @@ public class SmartTv {
 	public void baixarCanal() {
 		canal = canal - 1;
 	}
+	public void mudarCanal(int novoCanal) {
+		canal = novoCanal;
+	}
 }
